@@ -1,0 +1,27 @@
+{
+    "name": "express-intro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Adrian Widłak",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-decode": "^3.1.2",
+        "mongodb": "^3.6.4",
+        "mongoose": "^5.11.17",
+        "swagger-jsdoc": "^7.0.0-rc.6",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
